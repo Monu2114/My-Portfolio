@@ -134,3 +134,34 @@ hr {
     margin-left: 20px;
 }
 
+.profiles{
+    background-color: rgb(211, 171, 171);
+    padding:20px;
+    width:150px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+    height:30vh;
+    box-shadow: 1px 5px 0.5rem rgb(168, 162, 162);
+}
+.profiles img{
+    width: 7vh;
+    border-radius: 100%;
+}
+.profile
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.profile p{
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+#trend{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 20px;
+}
