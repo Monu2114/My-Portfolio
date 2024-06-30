@@ -1,4 +1,4 @@
-html,body{
+body{
     height:100%;
     background-color: rgb(210, 210, 207);
     margin: 0;
@@ -11,8 +11,8 @@ img
 .container{
     display:grid;
     grid-template-columns: 0.5fr 3fr;
-
-}
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    }
 .Intro{
     display: flex;
     flex-direction: row;
@@ -36,7 +36,7 @@ header{
    flex-direction: column;
    height: 20vh;
    background-color: rgb(211, 171, 171);
-
+grid-column: 2/4;
    border-bottom: 0.4px solid rgb(168, 162, 162);
    box-shadow: 1px 5px 0.5rem rgb(168, 162, 162);
 }
@@ -118,7 +118,7 @@ margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr;
     border-radius: 20px;
-    height:30vh;
+    height:20vh;
     box-shadow: 1px 5px 0.5rem rgb(168, 162, 162);
 }
 hr {
@@ -131,7 +131,7 @@ hr {
     font-size: 1.2rem;
     font-weight: bold;
     font-family: cursive;
-    margin-left: 20px;
+    padding:1px
 }
 
 .profiles{
@@ -165,3 +165,27 @@ hr {
     font-family: cursive;
     margin-left: 20px;
 }
+.content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40vh;
+    margin-left: 20px;
+    margin-top:0;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    margin-top:0;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
