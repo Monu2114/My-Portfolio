@@ -8,15 +8,9 @@ img
     width: 9vh;
     border-radius: 100%;
 }
-
-.p{
-    display: flex;
-    flex-direction: column;
-}
 .container{
     display:grid;
     grid-template-columns: 0.5fr 3fr;
-    grid-template-rows: auto 1fr; /* Auto height for header, remaining space for content */
 
 }
 .Intro{
@@ -29,8 +23,6 @@ img
     font-weight: 900;
     font-size: 1.2rem;
 }
-
-
 .buttons{
     padding-left: 70vh;
     display: flex;
@@ -119,5 +111,26 @@ margin-top: 30px;
 .right img{
     margin:-15px;
 }
-
+.box{
+    background-color: rgb(211, 171, 171);
+    padding:30px;
+    width:150px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+    height:30vh;
+    box-shadow: 1px 5px 0.5rem rgb(168, 162, 162);
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: rgb(28, 25, 25);
+    margin: 1px; /* Adjust if you need spacing */
+}
+.announcement p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 20px;
+}
 
